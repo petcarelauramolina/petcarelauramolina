@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #B6DAEA;
+    color: #82e3e3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title a {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+section p {
+    margin-bottom: 20px;
+}
+.service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.service img {
+    width: 150px; /* Ajusta el tamaño de las imágenes según tu diseño */
+    margin-right: 20px;
+}
+.service h1, .service p {
+    flex: 1; /* Ocupa todo el espacio restante */
+}
+footer {
+    background-color: #B6DAEA;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 20px; /* Añade espacio entre el último contenido y el footer */
+    position: relative;
+}
+footer p {
+    margin: 10px 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}

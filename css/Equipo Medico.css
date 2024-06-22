@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #B6DAEA;
+    color: #82e3e3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title a {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero img {
+    max-width: 72%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+
+.footer1 {
+    background: url(../IMG/fondoazul.png) no-repeat;
+    height: 40%;
+    position: relative;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.footer {
+    font-size: 40%;
+    font-family: "arial";
+    color: white;
+   padding-left: 90px;
+   padding-top: 90px;
+}
+
+.Copyright {
+    font-size: 18px;
+    font-family: "arial";
+    color: white;
+    padding-left: 350px;
+    padding-top: 100px;
+}    
+
+.facebook {
+    padding-left: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    background-color: #B6DAEA;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 20px; 
+    position: relative;
+}
+footer p {
+    margin: 10px 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+ 
+ @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 100%; 
+    max-width: 800px; 
+    animation: fadeIn 10s ease-out; 
+}
