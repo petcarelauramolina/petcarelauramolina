@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <script src="js/prefixfree.js"></script>
+    <link rel="stylesheet" href="css/contacto.css">
+    <meta name="description" content="En Pet Care creemos que las mascotas son miembros de la familia que merecen la mejor atención médica posible.">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <a href="home.html">
+                <img src="IMG/logo pet care.png" alt="Logo de Pet Care">
+            </a>          
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="Equipo Medico.html">EQUIPO MÉDICO</a></li>
+                <li><a href="testimonios.html">TESTIMONIOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+<div class="container">
+    <h2>CONTACTO</h2>
+    <form action="/enviar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+<center>
+    <footer>
+      <p>&copy; 2024 PETCARE. laura Molina.</p>
+  </footer>
+  </center>
+</body>
+</html>
+
